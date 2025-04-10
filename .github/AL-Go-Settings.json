@@ -4,5 +4,8 @@
   "DeployToTestsystem": {
     "continuousDeployment": true
   },
-  "githubRunner": "self-hosted"
+  "githubRunner": "self-hosted",
+  "DeployToPROD": {
+    "continuousDeployment": false
+  }
 }
